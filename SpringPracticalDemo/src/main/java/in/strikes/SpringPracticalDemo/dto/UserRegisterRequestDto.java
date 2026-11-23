@@ -1,0 +1,14 @@
+package in.strikes.SpringPracticalDemo.dto;
+
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@NoArgsConstructor
+public class UserRegisterRequestDto {
+    private String username;
+
+    private String password;
+}
